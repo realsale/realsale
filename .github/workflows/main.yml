@@ -9,11 +9,6 @@ on:
 jobs:
   github-metrics:
     permissions:
-      packages: write
-      id-token: write
-      actions: write
-      checks: write
-      contents: write
       deployments: write
     runs-on: ubuntu-latest
     steps:
