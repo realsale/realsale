@@ -9,6 +9,8 @@ on:
 jobs:
   github-metrics:
     permissions:
+      actions: write
+      contents: write
       deployments: write
     runs-on: ubuntu-latest
     steps:
