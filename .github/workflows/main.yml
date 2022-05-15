@@ -16,3 +16,4 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_lines: yes
           plugin_languages: yes
+          plugin_languages_details: percentage
