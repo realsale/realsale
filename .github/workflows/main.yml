@@ -23,3 +23,10 @@ jobs:
           
           # Display number of page views
           plugin_traffic: yes
+          
+          # Display blog post
+          plugin_post: yes
+          plugin_post_source: dev.to
+          plugin_posts_descriptions: yes
+          plugin_posts_covers: yes
+          plugin_posts_user: realsale
